@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-cash-machine"
+version = "0.1.0"
+description = ""
+authors = ["Alina Davydenko <Alinadavydenko620@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+django = "^5.1.6"
+dotenv = "^0.9.9"
+psycopg2-binary = "^2.9.10"
+djangorestframework = "^3.15.2"
+pdfkit = "^1.0.0"
+qrcode = {extras = ["pil"], version = "^8.0"}
+wkhtmltopdf = "^0.2"
+pillow = "^11.1.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
